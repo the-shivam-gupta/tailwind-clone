@@ -3,6 +3,29 @@
 @tailwind utilities;
 
 .bg-image {
+    width: 100%;
     background-image: url('https://tailwindcss.com/_next/static/media/hero-dark@90.dba36cdf.jpg');
     background-size: 86.125rem;
+}
+
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 18px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(76, 74, 74);
+    border-radius: 4px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #666565;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #7f7d7d;
 }
